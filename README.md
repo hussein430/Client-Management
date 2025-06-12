@@ -1,59 +1,56 @@
-# ClientManagement
+# Client Management System 🧑‍💼
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+This project is a training-based **Angular application** built to practice and demonstrate everything I’ve learned so far in Angular development.
 
-## Development server
+It includes real-world concepts like:
 
-To start a local development server, run:
+- ✅ Standalone Components
+- ✅ Reactive Forms
+- ✅ Routing with Guards
+- ✅ HTTP Interceptor (Authorization Header)
+- ✅ Angular Material UI (MatTable, Inputs, Buttons)
+- ✅ BehaviorSubject for state syncing
+- ✅ Centralized state management using custom services
+- ✅ Light/Dark Theme switching using CSS Variables
+
+---
+
+## 🛠 Technologies Used
+
+- Angular 16+ with Standalone APIs
+- Angular Material
+- SCSS for styling
+- CSS Variables for theming
+- LocalStorage for state persistence
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
+npm install
 ng serve
-```
+Then navigate to http://localhost:4200/
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+📁 Project Structure
+src/
+    ├── auth/              // Login form
+    ├── clients/           // CRUD client data
+    ├── dashboard/         // Layout + navigation
+    ├── settings/          // Theme toggling
+    ├── shared/            // UI components
+    ├── core/              // Guards, interceptors, state services
 
-## Code scaffolding
+💡 Purpose
+This project is purely educational.
+The main goal is to consolidate core Angular knowledge by building a complete, real-world structure dashboard from scratch.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+📸 UI Preview
+> The UI is still under development. Screenshots will be added once the design is completed.
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+📬 Feedback
+If you have any suggestions or improvements, feel free to open an issue or pull request!
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
